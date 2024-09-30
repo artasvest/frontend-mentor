@@ -1,0 +1,102 @@
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    border-radius: 20px;  
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+}
+.button{
+    background-color: hsl(0, 0%, 20%);
+    font-family: inter;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+    font-size:medium;
+    height: 50px;
+    width:350px;
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    border:none;
+    text-decoration: none;
+}
+.button:hover {
+    background-color:hsl(75, 94%, 57%);
+    transition: 0.7s;
+    cursor:pointer;
+
+}
+h1{
+    font-family: inter;
+    color:hsl(0, 0%, 100%);
+    font-size:25px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+h2{
+    color: hsl(75, 94%, 57%);
+    font-size: 15px;
+    font-family: inter;
+    font-weight: 700;
+}
+h3{
+    font-family: inter;
+    color:hsl(0, 0%, 100%);
+    font-size:15px;
+    font-weight: 400;
+}
+.all-buttons{
+    padding: 40px;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+img{
+    border-radius: 100px;
+    height: 100px;
+}
+@media (max-width: 500px) {
+    .button{
+        background-color: hsl(0, 0%, 20%);
+        font-family: inter;
+        color:hsl(0, 0%, 100%);
+        font-weight: 700;
+        font-size:medium;
+        height: 50px;
+        width:300px;
+        display:flex;
+        justify-content: center;
+        border-radius: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+        border:none;
+        text-decoration: none;
+    }
+}
